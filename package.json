@@ -5,13 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "gate": "nodemon gateway.service.js",
+    "gate1": "nodemon index.service.js",
+    "gate2": "nodemon stress.service.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2",
+    "express-http-proxy": "^2.1.1",
     "morgan": "^1.10.0",
     "nodemon": "^3.1.9"
   }
